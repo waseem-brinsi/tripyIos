@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1772B629EA153100403AFC /* EditPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1772B529EA153100403AFC /* EditPasswordViewController.swift */; };
+		4F1772B829EA23F500403AFC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1772B729EA23F500403AFC /* User.swift */; };
+		4F1C808F29E986B100F31669 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C808E29E986B100F31669 /* EditProfileViewController.swift */; };
+		4F225A1229DB845700C971D2 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F225A1129DB845700C971D2 /* Hotel.swift */; };
+		4F26A17929D2582C00E1FF27 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26A17829D2582C00E1FF27 /* CategoryCollectionViewCell.swift */; };
+		4F4BF30A29E7FDEE0094B0CB /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BF30929E7FDEE0094B0CB /* ApiService.swift */; };
+		4F5C1F6B2A102F9600B9E04D /* MyRecetteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C1F6A2A102F9600B9E04D /* MyRecetteViewController.swift */; };
+		4F74F5EB29CDF6B300428EAC /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F74F5EA29CDF6B300428EAC /* FoodCollectionViewCell.swift */; };
+		4F8700A52A013F2E00443A89 /* RecetteSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8700A42A013F2E00443A89 /* RecetteSwiftUIView.swift */; };
+		4F8700A72A0145FD00443A89 /* IngredientsMeasuresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8700A62A0145FD00443A89 /* IngredientsMeasuresTableViewCell.swift */; };
+		4F8700AB2A0145FD00443A89 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8700AA2A0145FD00443A89 /* SettingsViewController.swift */; };
+		4F904B5A29CFBD570075B590 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4F904B5929CFBD570075B590 /* Kingfisher */; };
+		4F93334E29DDD2F500B697BB /* AreaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93334D29DDD2F500B697BB /* AreaCollectionViewCell.swift */; };
+		4F93DDA029DE480600E4E4DD /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93DD9F29DE480600E4E4DD /* IngredientTableViewCell.swift */; };
+		4F9E046929C24CF800AC56DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E046829C24CF800AC56DC /* AppDelegate.swift */; };
+		4F9E046B29C24CF800AC56DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E046A29C24CF800AC56DC /* SceneDelegate.swift */; };
+		4F9E046D29C24CF800AC56DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E046C29C24CF800AC56DC /* ViewController.swift */; };
+		4F9E047029C24CF800AC56DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9E046E29C24CF800AC56DC /* Main.storyboard */; };
+		4F9E047329C24CF800AC56DC /* Tripy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E047129C24CF800AC56DC /* Tripy.xcdatamodeld */; };
+		4F9E047529C24CF900AC56DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9E047429C24CF900AC56DC /* Assets.xcassets */; };
+		4F9E047829C24CF900AC56DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9E047629C24CF900AC56DC /* LaunchScreen.storyboard */; };
+		4FC894E729C8B15900946D4C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC894E629C8B15900946D4C /* SignupViewController.swift */; };
+		4FC894E929C8B1BC00946D4C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC894E829C8B1BC00946D4C /* LoginViewController.swift */; };
+		4FCB89A82A11354C00FB6682 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCB89A72A11354C00FB6682 /* Alamofire */; };
+		4FCB89AB2A113D5C00FB6682 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCB89AA2A113D5C00FB6682 /* Toast */; };
+		4FCB89AE2A11552000FB6682 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCB89AD2A11552000FB6682 /* GoogleSignIn */; };
+		4FCB89B02A11552000FB6682 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCB89AF2A11552000FB6682 /* GoogleSignInSwift */; };
+		4FD6DDF629EA904B0087E368 /* PasswordEmailVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DDF529EA904B0087E368 /* PasswordEmailVerificationViewController.swift */; };
+		4FD6DDF829EA907F0087E368 /* PasswordVerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DDF729EA907F0087E368 /* PasswordVerificationCodeViewController.swift */; };
+		4FD6DDFA29EA90AC0087E368 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DDF929EA90AC0087E368 /* PasswordResetViewController.swift */; };
+		4FD6DDFD29EAA2600087E368 /* DataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DDFC29EAA2600087E368 /* DataSingleton.swift */; };
+		4FD6DE0029EAFD660087E368 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD6DDFF29EAFD660087E368 /* JWTDecode */; };
+		4FD7F5762A053B5E0056FB4F /* FaceIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7F5752A053B5E0056FB4F /* FaceIdViewController.swift */; };
+		4FDC1FD129CB762B0091A6A0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC1FD029CB762B0091A6A0 /* TabBarController.swift */; };
+		4FE5904C2A069C19003F6C21 /* uploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5904B2A069C19003F6C21 /* uploadImageViewController.swift */; };
+		4FFC4B6D2A07EDC500D68BC7 /* RecetteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC4B6C2A07EDC500D68BC7 /* RecetteViewController.swift */; };
+		4FFC4B6F2A07EE2500D68BC7 /* RecetteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC4B6E2A07EE2500D68BC7 /* RecetteCollectionViewCell.swift */; };
+		4FFC4B722A081D7E00D68BC7 /* RecetteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC4B712A081D7E00D68BC7 /* RecetteDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F1772B529EA153100403AFC /* EditPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPasswordViewController.swift; sourceTree = "<group>"; };
+		4F1772B729EA23F500403AFC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4F1C808E29E986B100F31669 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		4F225A1129DB845700C971D2 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		4F26A17829D2582C00E1FF27 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F4BF30929E7FDEE0094B0CB /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		4F5C1F6A2A102F9600B9E04D /* MyRecetteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecetteViewController.swift; sourceTree = "<group>"; };
+		4F74F5EA29CDF6B300428EAC /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F8700A42A013F2E00443A89 /* RecetteSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteSwiftUIView.swift; sourceTree = "<group>"; };
+		4F8700A62A0145FD00443A89 /* IngredientsMeasuresTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsMeasuresTableViewCell.swift; sourceTree = "<group>"; };
+		4F8700AA2A0145FD00443A89 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4F93334D29DDD2F500B697BB /* AreaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F93DD9F29DE480600E4E4DD /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		4F9E046529C24CF800AC56DC /* Tripy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9E046829C24CF800AC56DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F9E046A29C24CF800AC56DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F9E046C29C24CF800AC56DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F9E046F29C24CF800AC56DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F9E047229C24CF800AC56DC /* EasyKitchen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyKitchen.xcdatamodel; sourceTree = "<group>"; };
+		4F9E047429C24CF900AC56DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F9E047729C24CF900AC56DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F9E047929C24CF900AC56DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC894E629C8B15900946D4C /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		4FC894E829C8B1BC00946D4C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4FD6DDF529EA904B0087E368 /* PasswordEmailVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordEmailVerificationViewController.swift; sourceTree = "<group>"; };
+		4FD6DDF729EA907F0087E368 /* PasswordVerificationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVerificationCodeViewController.swift; sourceTree = "<group>"; };
+		4FD6DDF929EA90AC0087E368 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		4FD6DDFC29EAA2600087E368 /* DataSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSingleton.swift; sourceTree = "<group>"; };
+		4FD7F5752A053B5E0056FB4F /* FaceIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIdViewController.swift; sourceTree = "<group>"; };
+		4FDC1FD029CB762B0091A6A0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4FE5904B2A069C19003F6C21 /* uploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadImageViewController.swift; sourceTree = "<group>"; };
+		4FFC4B6C2A07EDC500D68BC7 /* RecetteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteViewController.swift; sourceTree = "<group>"; };
+		4FFC4B6E2A07EE2500D68BC7 /* RecetteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteCollectionViewCell.swift; sourceTree = "<group>"; };
+		4FFC4B712A081D7E00D68BC7 /* RecetteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9E046229C24CF800AC56DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCB89AE2A11552000FB6682 /* GoogleSignIn in Frameworks */,
+				4FCB89AB2A113D5C00FB6682 /* Toast in Frameworks */,
+				4FCB89A82A11354C00FB6682 /* Alamofire in Frameworks */,
+				4FCB89B02A11552000FB6682 /* GoogleSignInSwift in Frameworks */,
+				4FD6DE0029EAFD660087E368 /* JWTDecode in Frameworks */,
+				4F904B5A29CFBD570075B590 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F40DDBD29E6322A00EA9E06 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BF30529E7FD610094B0CB /* ViewControllers */,
+				4F4BF30429E7FD4B0094B0CB /* ViewCells */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4F40DDBE29E6329100EA9E06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BF30729E7FDB20094B0CB /* SwiftUI */,
+				4F4BF30629E7FDA60094B0CB /* UIKit */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F4BF30429E7FD4B0094B0CB /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4F93DD9F29DE480600E4E4DD /* IngredientTableViewCell.swift */,
+				4F74F5EA29CDF6B300428EAC /* FoodCollectionViewCell.swift */,
+				4F26A17829D2582C00E1FF27 /* CategoryCollectionViewCell.swift */,
+				4F93334D29DDD2F500B697BB /* AreaCollectionViewCell.swift */,
+				4F8700A62A0145FD00443A89 /* IngredientsMeasuresTableViewCell.swift */,
+				4FFC4B6E2A07EE2500D68BC7 /* RecetteCollectionViewCell.swift */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		4F4BF30529E7FD610094B0CB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC4B702A081D5E00D68BC7 /* Hotel */,
+				4FD6DDEF29EA8E970087E368 /* Auth */,
+				4FD6DDF429EA8F8E0087E368 /* TabBar */,
+				4FD6DDF029EA8EBB0087E368 /* User */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4F4BF30629E7FDA60094B0CB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E046E29C24CF800AC56DC /* Main.storyboard */,
+				4F9E047629C24CF900AC56DC /* LaunchScreen.storyboard */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		4F4BF30729E7FDB20094B0CB /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				4F8700A42A013F2E00443A89 /* RecetteSwiftUIView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		4F4BF30829E7FDD80094B0CB /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BF30929E7FDEE0094B0CB /* ApiService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		4F4BF30B29E7FE030094B0CB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E046829C24CF800AC56DC /* AppDelegate.swift */,
+				4F9E046A29C24CF800AC56DC /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4F74F5E729CDDD1600428EAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F225A1129DB845700C971D2 /* Hotel.swift */,
+				4F1772B729EA23F500403AFC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F9E045C29C24CF800AC56DC = {
+			isa = PBXGroup;
+			children = (
+				4F9E046729C24CF800AC56DC /* Tripy */,
+				4F9E046629C24CF800AC56DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F9E046629C24CF800AC56DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E046529C24CF800AC56DC /* Tripy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9E046729C24CF800AC56DC /* Tripy */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BF30B29E7FE030094B0CB /* Common */,
+				4F74F5E729CDDD1600428EAC /* Models */,
+				4F40DDBE29E6329100EA9E06 /* Views */,
+				4F40DDBD29E6322A00EA9E06 /* ViewModels */,
+				4FD6DDFB29EAA1EF0087E368 /* Utils */,
+				4F4BF30829E7FDD80094B0CB /* WebService */,
+				4F9E047429C24CF900AC56DC /* Assets.xcassets */,
+				4F9E047929C24CF900AC56DC /* Info.plist */,
+				4F9E047129C24CF800AC56DC /* Tripy.xcdatamodeld */,
+			);
+			path = Tripy;
+			sourceTree = "<group>";
+		};
+		4FD6DDEF29EA8E970087E368 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4FC894E629C8B15900946D4C /* SignupViewController.swift */,
+				4FC894E829C8B1BC00946D4C /* LoginViewController.swift */,
+				4FD6DDF529EA904B0087E368 /* PasswordEmailVerificationViewController.swift */,
+				4FD6DDF729EA907F0087E368 /* PasswordVerificationCodeViewController.swift */,
+				4FD6DDF929EA90AC0087E368 /* PasswordResetViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		4FD6DDF029EA8EBB0087E368 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				4F1772B529EA153100403AFC /* EditPasswordViewController.swift */,
+				4F8700AA2A0145FD00443A89 /* SettingsViewController.swift */,
+				4FD7F5752A053B5E0056FB4F /* FaceIdViewController.swift */,
+				4F1C808E29E986B100F31669 /* EditProfileViewController.swift */,
+				4FE5904B2A069C19003F6C21 /* uploadImageViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		4FD6DDF429EA8F8E0087E368 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E046C29C24CF800AC56DC /* ViewController.swift */,
+				4FDC1FD029CB762B0091A6A0 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4FD6DDFB29EAA1EF0087E368 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6DDFC29EAA2600087E368 /* DataSingleton.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4FFC4B702A081D5E00D68BC7 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC4B6C2A07EDC500D68BC7 /* RecetteViewController.swift */,
+				4FFC4B712A081D7E00D68BC7 /* RecetteDetailViewController.swift */,
+				4F5C1F6A2A102F9600B9E04D /* MyRecetteViewController.swift */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F9E046429C24CF800AC56DC /* Tripy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9E047C29C24CF900AC56DC /* Build configuration list for PBXNativeTarget "Tripy" */;
+			buildPhases = (
+				4F9E046129C24CF800AC56DC /* Sources */,
+				4F9E046229C24CF800AC56DC /* Frameworks */,
+				4F9E046329C24CF800AC56DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tripy;
+			packageProductDependencies = (
+				4F904B5929CFBD570075B590 /* Kingfisher */,
+				4FD6DDFF29EAFD660087E368 /* JWTDecode */,
+				4FCB89A72A11354C00FB6682 /* Alamofire */,
+				4FCB89AA2A113D5C00FB6682 /* Toast */,
+				4FCB89AD2A11552000FB6682 /* GoogleSignIn */,
+				4FCB89AF2A11552000FB6682 /* GoogleSignInSwift */,
+			);
+			productName = EasyKitchen;
+			productReference = 4F9E046529C24CF800AC56DC /* Tripy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9E045D29C24CF800AC56DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4F9E046429C24CF800AC56DC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F9E046029C24CF800AC56DC /* Build configuration list for PBXProject "Tripy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F9E045C29C24CF800AC56DC;
+			packageReferences = (
+				4F904B5829CFBD570075B590 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				4FD6DDFE29EAFD660087E368 /* XCRemoteSwiftPackageReference "JWTDecode" */,
+				4FCB89A62A11354C00FB6682 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4FCB89A92A113D5C00FB6682 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				4FCB89AC2A11552000FB6682 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 4F9E046629C24CF800AC56DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9E046429C24CF800AC56DC /* Tripy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9E046329C24CF800AC56DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9E047829C24CF900AC56DC /* LaunchScreen.storyboard in Resources */,
+				4F9E047529C24CF900AC56DC /* Assets.xcassets in Resources */,
+				4F9E047029C24CF800AC56DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9E046129C24CF800AC56DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD7F5762A053B5E0056FB4F /* FaceIdViewController.swift in Sources */,
+				4F1C808F29E986B100F31669 /* EditProfileViewController.swift in Sources */,
+				4F8700A52A013F2E00443A89 /* RecetteSwiftUIView.swift in Sources */,
+				4F74F5EB29CDF6B300428EAC /* FoodCollectionViewCell.swift in Sources */,
+				4FFC4B6F2A07EE2500D68BC7 /* RecetteCollectionViewCell.swift in Sources */,
+				4FFC4B722A081D7E00D68BC7 /* RecetteDetailViewController.swift in Sources */,
+				4F8700A72A0145FD00443A89 /* IngredientsMeasuresTableViewCell.swift in Sources */,
+				4F1772B829EA23F500403AFC /* User.swift in Sources */,
+				4FC894E929C8B1BC00946D4C /* LoginViewController.swift in Sources */,
+				4FD6DDFD29EAA2600087E368 /* DataSingleton.swift in Sources */,
+				4FDC1FD129CB762B0091A6A0 /* TabBarController.swift in Sources */,
+				4FE5904C2A069C19003F6C21 /* uploadImageViewController.swift in Sources */,
+				4F4BF30A29E7FDEE0094B0CB /* ApiService.swift in Sources */,
+				4F9E047329C24CF800AC56DC /* Tripy.xcdatamodeld in Sources */,
+				4FD6DDF629EA904B0087E368 /* PasswordEmailVerificationViewController.swift in Sources */,
+				4F9E046D29C24CF800AC56DC /* ViewController.swift in Sources */,
+				4F93334E29DDD2F500B697BB /* AreaCollectionViewCell.swift in Sources */,
+				4FC894E729C8B15900946D4C /* SignupViewController.swift in Sources */,
+				4FD6DDF829EA907F0087E368 /* PasswordVerificationCodeViewController.swift in Sources */,
+				4F225A1229DB845700C971D2 /* Hotel.swift in Sources */,
+				4F9E046929C24CF800AC56DC /* AppDelegate.swift in Sources */,
+				4F26A17929D2582C00E1FF27 /* CategoryCollectionViewCell.swift in Sources */,
+				4F5C1F6B2A102F9600B9E04D /* MyRecetteViewController.swift in Sources */,
+				4F93DDA029DE480600E4E4DD /* IngredientTableViewCell.swift in Sources */,
+				4F9E046B29C24CF800AC56DC /* SceneDelegate.swift in Sources */,
+				4FD6DDFA29EA90AC0087E368 /* PasswordResetViewController.swift in Sources */,
+				4FFC4B6D2A07EDC500D68BC7 /* RecetteViewController.swift in Sources */,
+				4F8700AB2A0145FD00443A89 /* SettingsViewController.swift in Sources */,
+				4F1772B629EA153100403AFC /* EditPasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F9E046E29C24CF800AC56DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9E046F29C24CF800AC56DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F9E047629C24CF900AC56DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9E047729C24CF900AC56DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F9E047A29C24CF900AC56DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F9E047B29C24CF900AC56DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F9E047D29C24CF900AC56DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SD67XM79J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tripy/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To authenticate you with Face ID for secure access to the app.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wassim.tripy;
+				PRODUCT_NAME = Tripy;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F9E047E29C24CF900AC56DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SD67XM79J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tripy/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To authenticate you with Face ID for secure access to the app.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wassim.tripy;
+				PRODUCT_NAME = Tripy;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9E046029C24CF800AC56DC /* Build configuration list for PBXProject "Tripy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9E047A29C24CF900AC56DC /* Debug */,
+				4F9E047B29C24CF900AC56DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9E047C29C24CF900AC56DC /* Build configuration list for PBXNativeTarget "Tripy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9E047D29C24CF900AC56DC /* Debug */,
+				4F9E047E29C24CF900AC56DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F904B5829CFBD570075B590 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		4FCB89A62A11354C00FB6682 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		4FCB89A92A113D5C00FB6682 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		4FCB89AC2A11552000FB6682 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		4FD6DDFE29EAFD660087E368 /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F904B5929CFBD570075B590 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F904B5829CFBD570075B590 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		4FCB89A72A11354C00FB6682 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FCB89A62A11354C00FB6682 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4FCB89AA2A113D5C00FB6682 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FCB89A92A113D5C00FB6682 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		4FCB89AD2A11552000FB6682 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FCB89AC2A11552000FB6682 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		4FCB89AF2A11552000FB6682 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FCB89AC2A11552000FB6682 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		4FD6DDFF29EAFD660087E368 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD6DDFE29EAFD660087E368 /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4F9E047129C24CF800AC56DC /* Tripy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F9E047229C24CF800AC56DC /* EasyKitchen.xcdatamodel */,
+			);
+			currentVersion = 4F9E047229C24CF800AC56DC /* EasyKitchen.xcdatamodel */;
+			path = Tripy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F9E045D29C24CF800AC56DC /* Project object */;
+}
